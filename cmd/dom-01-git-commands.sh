@@ -20,8 +20,11 @@ git add /path/to/folder/*.ext
 # commit les modifications indexés
 git commit -m "initial commit"
 
+# affiche les branches locales et distantes
+git branch -a
+
 # pousse les modifications
-git push origin master
+git push origin main
 
 # récupère les modifications
 # fusionne les branches
