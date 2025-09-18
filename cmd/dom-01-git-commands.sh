@@ -16,3 +16,13 @@ git add /path/to/folder/
 
 # indexe les fichiers avec l'extension spécifiée
 git add /path/to/folder/*.ext
+
+# commit les modifications indexés
+git commit -m "initial commit"
+
+# pousse les modifications
+git push origin master
+
+# récupère les modifications
+# fusionne les branches
+git pull
