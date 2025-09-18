@@ -5,4 +5,4 @@ root=$(dirname "$0")
 cd $root
 
 # construit le docker spécifié
-cd identidock && docker build -t identidock .
+cd identidock && docker build --no-cache -t identidock .

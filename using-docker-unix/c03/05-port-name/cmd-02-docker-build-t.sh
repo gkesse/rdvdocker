@@ -4,5 +4,5 @@
 root=$(dirname "$0")
 cd $root
 
-# remplace (World) par (Docker) dans le fichier spécifié
-sed -i '' s/World/Docker/ app/identidock.py
+# construit le docker spécifié
+cd identidock && docker build --no-cache -t identidock .

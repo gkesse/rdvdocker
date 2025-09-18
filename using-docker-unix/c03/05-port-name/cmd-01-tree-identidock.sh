@@ -4,5 +4,5 @@
 root=$(dirname "$0")
 cd $root
 
-# construit le docker spécifié
-cd identidock && docker build -t identidock .
+# affiche l'arborescence du répertoire spécifié
+tree ./identidock

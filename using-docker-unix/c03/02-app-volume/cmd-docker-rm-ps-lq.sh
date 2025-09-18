@@ -4,5 +4,5 @@
 root=$(dirname "$0")
 cd $root
 
-# construit le docker spécifié
-cd identidock && docker build -t identidock .
+# supprime le dernier docker
+docker rm $(docker ps -lq)

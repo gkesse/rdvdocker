@@ -4,5 +4,5 @@
 root=$(dirname "$0")
 cd $root
 
-# supprime tous les dockers éteints
-docker rm -v $(docker ps -aq -f status=exited)
+# construit le docker spécifié
+cd identidock && docker build --no-cache -t identidock .

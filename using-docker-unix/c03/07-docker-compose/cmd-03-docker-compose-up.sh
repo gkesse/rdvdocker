@@ -4,5 +4,5 @@
 root=$(dirname "$0")
 cd $root
 
-# construit le docker spécifié
-cd identidock && docker build -t identidock .
+# exécute le docker spécifié depuis (docker-compose.yml)
+cd identidock && docker-compose up
